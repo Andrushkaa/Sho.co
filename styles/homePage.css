@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+nav {
+  height: 40px;
+}
+
+#me {
+  border-radius: 50%;
+  height: 80px;
+  border: 5px solid #f8f8f8;
+}
+
+#about-button {
+  padding-right: 10px;
+}
+
+#portfolio-button {
+  padding-left: 10px;
+}
+
+.icon {
+  margin-left: -15px;
+}
+
+.last {
+  margin-right: 10px;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#home-page {
+  background: url('https://scontent-waw1-1.xx.fbcdn.net/t31.0-8/12764535_484688585069407_3116813303579732691_o.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 30% ;
+  text-align: center;
+}
+
+#home-page h1 {
+  font-family: 'Lobster', serif;
+  font-size: 6em;
+  margin-top: 340px;
+}
+
+#home-page h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#about-page {
+  background: url('http://i16.photobucket.com/albums/b22/nattycdb/ecf352a3-6952-4a62-9257-2bd54d6c9d40.jpg~original');
+  background-size: cover;
+  text-align: justify;
+}
+
+#about-page h1 {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Lobster', 'Roboto', serif;
+}
+
+#about-page .row {
+  font-size: 1.1em;
+  margin-top: 7%;
+}
+
+#portfolio-page {
+  background: url('http://i16.photobucket.com/albums/b22/nattycdb/eca06d10-1527-4e72-a6ed-63e11f60be74.jpg~original');
+  background-size: cover;
+}
+
+.row {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.row div {
+  padding-top: 20px;
+}
+
+#contact-page {
+  background: url('http://i16.photobucket.com/albums/b22/nattycdb/c39f1472-d40b-4788-a8e6-29ece0a5630b.jpg~original');
+  background-size: cover;
+  text-align: center;
+  color: #333;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.mail {
+  color: palevioletred;
+}
+
+.jumbotron .fa {
+  color: #333;
+  margin: 0px 3px;
+}
+
+.jumbotron .fa:hover {
+  color: palevioletred;
+}
